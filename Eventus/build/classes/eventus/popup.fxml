@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208.0" prefWidth="367.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eventus.PopupController">
+   <children>
+      <Button layoutX="21.0" layoutY="147.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="331.0" style="-fx-background-color: #00dEee;" text="Cancel" />
+      <Label fx:id="msg" layoutX="32.0" layoutY="37.0" prefHeight="17.0" prefWidth="232.0">
+         <font>
+            <Font name="Segoe UI Historic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
